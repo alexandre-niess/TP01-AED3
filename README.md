@@ -74,7 +74,7 @@ Além disso, todas as inserções e buscas fazem uso de índices indiretos (para
 - Interface principal de execução
 - Menu para testes das operações CRUD
 
-###Visualização da Estrutura de Pastas:
+### 📄 Visualização da Estrutura de Pastas:
 
 ```
 ├── Main.java
@@ -105,7 +105,8 @@ Além disso, todas as inserções e buscas fazem uso de índices indiretos (para
 
 ---
 
-💻 Compilação
+### 💻 Compilação
+
 No terminal, na raiz do projeto, execute:
 
 ```
@@ -114,7 +115,7 @@ javac */*.java Main.java
 
 Isso irá compilar todos os arquivos .java, incluindo os que estão em subpastas.
 
-🚀 Execução
+### 🚀 Execução
 Depois de compilar, execute o projeto com:
 
 ```
@@ -153,7 +154,3 @@ Com esforço, conseguimos alcançar os objetivos, e todas as funcionalidades esp
 | O trabalho é original e não a cópia de um trabalho de outro grupo?                                                                                         | ✅ Sim |
 
 ---
-
-> **Nota**: Este `README.md` pode ser complementado com prints do terminal, trechos de código e até GIFs de funcionamento, para melhor visualização no GitHub.
-
-Se quiser, posso salvar e te mandar o arquivo pronto! Deseja isso?
