@@ -12,8 +12,10 @@ Além disso, todas as inserções e buscas fazem uso de índices indiretos (para
 
 ## 👥 Participantes
 
-- Fulano de Tal - RA: 1234567
-- Ciclano de Tal - RA: 2345678
+- Alexandre Augusto Niess Ferreira
+- Gabriel Valedo Batista Silva
+- Henrique Giberti Piló Fernandes
+- Leonardo Amaral Passos Figueiredo
 
 ---
 
@@ -71,6 +73,53 @@ Além disso, todas as inserções e buscas fazem uso de índices indiretos (para
 
 - Interface principal de execução
 - Menu para testes das operações CRUD
+
+###Visualização da Estrutura de Pastas:
+
+```
+├── Main.java
+├── README.md
+├── aed3
+    ├── Arquivo.java
+    ├── ArvoreBMais.java
+    ├── HashExtensivel.java
+    ├── ParIDEndereco.java
+    ├── Registro.java
+    ├── RegistroArvoreBMais.java
+    └── RegistroHashExtensivel.java
+├── controle
+    ├── ControleEpisodios.java
+    └── ControleSeries.java
+├── entidades
+    ├── Episodio.java
+    └── Serie.java
+├── indexacao
+    └── ParIdSerieIdEpisodio.java
+├── persistencia
+    ├── ArquivoEpisodio.java
+    └── ArquivoSerie.java
+└── visao
+    ├── VisaoEpisodios.java
+    └── VisaoSeries.java
+```
+
+---
+
+💻 Compilação
+No terminal, na raiz do projeto, execute:
+
+```
+javac */*.java Main.java
+```
+
+Isso irá compilar todos os arquivos .java, incluindo os que estão em subpastas.
+
+🚀 Execução
+Depois de compilar, execute o projeto com:
+
+```
+java Main
+```
 
 ---
 
